@@ -2,7 +2,7 @@ import styles from './Contacts.module.css'
 import { BsInstagram, BsLinkedin, BsYoutube } from 'react-icons/bs'
 import { GoDeviceMobile, GoHome, GoMail } from 'react-icons/go'
 
-function Contatos() {
+function Contacts() {
     return (
         <section className={styles.contatos}>
             <h2>Contacts</h2>
@@ -40,4 +40,4 @@ function Contatos() {
     )
 }
 
-export default Contatos
+export default Contacts

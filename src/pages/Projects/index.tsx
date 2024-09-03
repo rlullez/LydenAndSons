@@ -1,5 +1,5 @@
 import { useEffect, useState } from 'react'
-import Card from '../../components/Card'
+//import Card from '../../components/Card'
 import styles from './Projects.module.css'
 
 function Projetos() {
@@ -22,14 +22,14 @@ function Projetos() {
                 repositories.length > 0 ? (
                     <section className={styles.lista}>
                         {
-                            repositories.map((repo) => (
-                                <Card
-                                    key={repo.id}
-                                    name={repo.name}
-                                    description={repo.description}
-                                    html_url={repo.html_url}
-                                />
-                            ))
+                            //repositories.map((repo) => (
+                                // <Card
+                                //     key={repo.id}
+                                //     name={repo.name}
+                                //     description={repo.description}
+                                //     html_url={repo.html_url}
+                                // />
+                            //))
                         }
                     </section>
                 ) : (
