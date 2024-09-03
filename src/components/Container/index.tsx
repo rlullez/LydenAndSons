@@ -1,7 +1,9 @@
 import styles from './Container.module.css'
 
+type MyComponentProps = React.PropsWithChildren<{}>;
+
 // eslint-disable-next-line react/prop-types
-function Container({ children }) {
+function Container({ children }: MyComponentProps) {
     return (
         <section className={styles.container}>
             { children }
